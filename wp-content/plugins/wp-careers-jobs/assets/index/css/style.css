@@ -1,0 +1,49 @@
+.job-one {
+	display: inline-block;
+	margin: 10px;
+}	
+.job-one h2 {
+	text-align: center;
+	margin: 5px;
+}
+
+.menu-job-department li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.menu-job-department a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu-job-department .active a {
+	text-decoration: underline;
+}
+.menu-job-department{
+	text-align: center;
+}
+
+.job-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.job-list .job-one {
+	width: 25%;
+	text-align: center;
+}
+
+@media (max-width: 480px) {
+	.job-list {
+	    display: block;
+	}
+	.job-list .job-one {
+	    width: 100%;
+	    margin: 0 0 10px 0;
+	}
+}
